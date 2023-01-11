@@ -1,0 +1,37 @@
+body{
+    margin: auto;
+    padding: auto;
+    background: rgb(234, 251, 251);
+    padding:20px;
+}
+.container{
+  margin: auto;  
+  max-width: 630px;
+  width:100%;
+  background-color: white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  text-align: center;
+  margin-top:100px;
+  font-size: 40px;
+  font-weight: bold; 
+}
+textarea{
+    max-width:500px;
+    padding:20px;
+    margin-top: 20px;
+    width:80%;
+}
+.wordcount-result{
+    
+    width:20px;
+}
+.output{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(243, 237, 237);
+    font-size: 20px;
+    padding:20px;
+    margin-bottom: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
